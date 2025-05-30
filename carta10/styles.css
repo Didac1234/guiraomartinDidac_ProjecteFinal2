@@ -1,0 +1,46 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url(imagenes/emile-seguin-R9OueKOtGGU-unsplash\ 1.png);
+    background-position: 50% 15%;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 180px;
+    text-align: center;
+}
+
+section h1 {
+    display: flex;
+    align-self: center;
+    font-size: 60px;
+}
+
+section p {
+    display: flex;
+    align-self: center;
+    font-size: 25px
+}
+
+section button {
+    justify-content: center;
+    align-self: center;
+    display: flex;
+    width: 200px;
+    background-color: rgb(53, 53, 53);
+    color: aliceblue;
+    padding: 20px 30px;
+    width: 200px;
+    border: none;
+    border-radius: 35px;
+    font-size: 20px;
+}
